@@ -3,6 +3,7 @@
 sbt stage
 
 if [ $? -ne 0 ]; then
+  echo "Error"
   echo "sbt return code was not zero but $retval"
   exit
 fi
